@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { ListadoGenericoComponent } from './modules/utilidades/listado-generico/listado-generico.component';
-import {MaterialModule} from './modules/material/material.module';
+import { MaterialModule} from './modules/material/material.module';
 import { LandingPageComponent } from './modules/landing-page/landing-page.component';
 import { CrearGeneroComponent } from './modules/generos/crear-genero/crear-genero.component';
 import { CrearActorComponent } from './modules/actores/crear-actor/crear-actor.component';
@@ -23,6 +23,9 @@ import { EditarActorComponent } from './modules/actores/editar-actor/editar-acto
 import { EditarGeneroComponent } from './modules/generos/editar-genero/editar-genero.component';
 import { EditarCineComponent } from './modules/cines/editar-cine/editar-cine.component';
 import { EditarPeliculaComponent } from './modules/peliculas/editar-pelicula/editar-pelicula.component';
+import { FormularioGeneroComponent } from './modules/generos/formulario-genero/formulario-genero.component';
+import { FiltroPeliculasComponent } from './modules/peliculas/filtro-peliculas/filtro-peliculas.component';
+
 
 
 @NgModule({
@@ -43,7 +46,9 @@ import { EditarPeliculaComponent } from './modules/peliculas/editar-pelicula/edi
     EditarActorComponent,
     EditarGeneroComponent,
     EditarCineComponent,
-    EditarPeliculaComponent
+    EditarPeliculaComponent,
+    FormularioGeneroComponent,
+    FiltroPeliculasComponent
   ],
   imports: [
     BrowserModule,
